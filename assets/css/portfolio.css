@@ -249,13 +249,14 @@
         text-align: center;
         position: relative;
     }
-    .photo, .app1, .app2, .app3, .app4, .app5, .t1, .t2, .t3, .t4, .t5, .text1, .text2, .text3, .text4, .text5 {
+    .photo .app1 .app2 .app3 .app4 .app5 .t1 .t2 .t3 .t4 .t5 .text1 .text2 .text3 .text4 .text5 {
         width: 90%;
     }
-    .app1, .app2, .app3, .app4, .app5, .t1, .t2, .t3, .t4, .t5, .text1, .text2, .text3, .text4, .text5 {
+    .app1 .app2 .app3 .app4 .app5 .t1 .t2 .t3 .t4 .t5 .text1 .text2 .text3 .text4 .text5 {
         margin-left: 10px;
         margin-right: 0px;
     }
+    
 }
 
-/* .photo, .app1, .app2, .app3, .app4, .app5, .t1, .t2, .t3, .t4, .t5, .text1, .text2, .text3, .text4, .text5 */
+ 
