@@ -1,4 +1,4 @@
-#portfolio{
+#portfolio {
     width: 860px;
     margin-left: auto;
     margin-right: auto;
@@ -9,7 +9,7 @@
     border: 3px solid #949494;
 }
 
-#PM{
+#PM {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px 0;
@@ -20,81 +20,79 @@
     font-weight: bold;
     font-size: 27px;
     border-bottom: 3px solid #949494;
-
 }
 
-.photo{
+.photo {
     width: 75%;
 }
-.app1{
+
+.app1 {
     height: 200px;
     width: 200px;
     margin-top: 20px;
     margin-right: 10px;
 }
 
-.t1{
+.t1 {
     position: relative;
-    display: inline-block; 
+    display: inline-block;
 }
 
-.text1{
+.text1 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.t1 .text1{
+.t1 .text1 {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
     margin-right: 10px;
     margin-bottom: 5px;
     left: 0;
-    right: 0;        
+    right: 0;
     text-align: center;
-    top: 75%; 
+    top: 75%;
     background: #4aaaa5;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     color: #fff;
-    width: 200px; 
+    width: 200px;
 }
 
-
-
-.app2{
+.app2 {
     height: 200px;
     width: 200px;
     margin-top: 20px;
     margin-right: 10px;
 }
 
-.t2{
+.t2 {
     position: relative;
-    display: inline-block; 
+    display: inline-block;
 }
 
-.text2{
+.text2 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.t2 .text2{
+.t2 .text2 {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
     margin-right: 10px;
     margin-bottom: 5px;
     left: 0;
-    right: 0;        
+    right: 0;
     text-align: center;
-    top: 75%; 
+    top: 75%;
     background: #4aaaa5;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     color: #fff;
-    width: 200px; 
+    width: 200px;
 }
 
-.app3{
+.app3 {
     clear: left;
     float: left;
     height: 200px;
@@ -103,94 +101,161 @@
     margin-right: 10px;
 }
 
-.t3{
+.t3 {
     position: relative;
-    display: inline-block; 
+    display: inline-block;
 }
 
-.text3{
+.text3 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.t3 .text3{
+.t3 .text3 {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
     margin-right: 10px;
     margin-bottom: 5px;
     left: 0;
-    right: 0;        
+    right: 0;
     text-align: center;
-    top: 75%; 
+    top: 75%;
     background: #4aaaa5;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     color: #fff;
-    width: 200px; 
+    width: 200px;
 }
 
-.app4{
+.app4 {
     height: 200px;
     width: 200px;
     margin-top: 20px;
     margin-right: 10px;
-
 }
-.t4{
+
+.t4 {
     position: relative;
-    display: inline-block; 
+    display: inline-block;
 }
 
-.text4{
+.text4 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.t4 .text4{
+.t4 .text4 {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
     margin-right: 10px;
     margin-bottom: 5px;
     left: 0;
-    right: 0;        
+    right: 0;
     text-align: center;
-    top: 75%; 
+    top: 75%;
     background: #4aaaa5;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     color: #fff;
-    width: 200px; 
+    width: 200px;
 }
 
-.app5{
+.app5 {
     height: 200px;
     width: 200px;
     margin-top: 20px;
     margin-right: 20px;
-
 }
-.t5{
+
+.t5 {
     position: relative;
-    display: inline-block; 
+    display: inline-block;
 }
 
-.text5{
+.text5 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.t5 .text5{
+.t5 .text5 {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
     margin-bottom: 5px;
     margin-right: 20px;
     left: 0;
-    right: 0;        
+    right: 0;
     text-align: center;
-    top: 75%; 
+    top: 75%;
     background: #4aaaa5;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     color: #fff;
-    width: 200px; 
+    width: 200px;
 }
+
+@media screen and (max-width: 980px) {
+    #portfolio {
+        width: 80%;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+    .t2, .t4, .t5 {
+        margin-right: 0;
+    }
+    #name {
+        margin-left: 40px;
+    }
+    .photo {
+        width: 90%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #portfolio {
+        width: 90%;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #name {
+        margin-left: 20px;
+    }
+    .photo {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #portfolio {
+        width: 60%;
+        height: 100%;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .top_bar, #name, .nav {
+        width: 100%;
+    }
+    header {
+        height: 75px;
+    }
+    #name {
+        margin: 0;
+        text-align: center;
+    }
+    .nav {
+        padding: 20px;
+        margin-top: 55px;
+        text-align: center;
+        position: relative;
+    }
+    .photo, .app1, .app2, .app3, .app4, .app5, .t1, .t2, .t3, .t4, .t5, .text1, .text2, .text3, .text4, .text5 {
+        width: 90%;
+    }
+    .app1, .app2, .app3, .app4, .app5, .t1, .t2, .t3, .t4, .t5, .text1, .text2, .text3, .text4, .text5 {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+}
+
+/* .photo, .app1, .app2, .app3, .app4, .app5, .t1, .t2, .t3, .t4, .t5, .text1, .text2, .text3, .text4, .text5 */
