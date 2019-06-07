@@ -1,6 +1,4 @@
-
-
-body{
+body {
     padding: 0;
     margin: 0;
     height: 100%;
@@ -12,19 +10,19 @@ body{
     background-color: #efeee7;
 }
 
-.content{
-       min-height: calc(100vh - 70px)
+.content {
+    min-height: calc(100vh - 70px)
 }
 
-header{
+header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     padding: 50px;
     background-color: #ffffff;
     border-bottom: 3px solid #949494;
-    }
+}
 
-#name{
+#name {
     color: #ffffff;
     background: #4aaaa5;
     width: 240px;
@@ -34,12 +32,14 @@ header{
     text-align: center;
     font-weight: bold;
     font-size: 27px;
-    position:absolute; top:0; left:0;
-
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-nav{
-    position:absolute; right:50px;
+nav {
+    position: absolute;
+    right: 50px;
 }
 
 .nav-link {
@@ -53,18 +53,17 @@ nav{
     border-right: none;
 }
 
-
-#about-me{
-    width: 960px;
+#about-me {
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     background-color: #ffffff;
-    height: 500px;
+    height: 70%;
     border: 3px solid #949494;
 }
 
-#AM{
+#AM {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px 0;
@@ -74,10 +73,9 @@ nav{
     font-weight: bold;
     font-size: 27px;
     border-bottom: 3px solid #949494;
-
 }
 
-img{
+img {
     height: 300px;
     width: 225px;
     float: left;
@@ -85,15 +83,15 @@ img{
     margin-right: 20px;
 }
 
-aside{
+aside {
     margin: 40px;
 }
 
-.p1{
+.p1 {
     margin-bottom: 20px;
 }
 
-footer{
+footer {
     color: #ffffff;
     text-align: center;
     border-top: 8px solid #4aaaa5;
@@ -102,6 +100,60 @@ footer{
     width: 100%;
 }
 
-#foot{
+#foot {
     margin-top: 43px;
+}
+
+@media screen and (min-width: 1320px) {
+    #about-me {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #about-me {
+        width: 66%;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+    #name {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #about-me {
+        width: 90%;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #name {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #about-me {
+        width: 90%;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .top_bar, #name, .nav {
+        width: 100%;
+    }
+    header {
+        height: 75px;
+    }
+    #name {
+        margin: 0;
+        text-align: center;
+    }
+    .nav {
+        padding: 20px;
+        margin-top:55px;
+        text-align: center;
+        position: relative;
+    }
 }
