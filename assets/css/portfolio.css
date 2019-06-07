@@ -196,8 +196,8 @@
 @media screen and (max-width: 980px) {
     #portfolio {
         width: 80%;
-        margin-bottom: 30px;
-        margin-left: 40px;
+        /* margin-bottom: 30px;
+        margin-left: 40px; */
     }
     .t2, .t4, .t5 {
         margin-right: 0;
@@ -213,9 +213,9 @@
 @media screen and (max-width: 768px) {
     #portfolio {
         width: 90%;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px;
         margin-left: 20px;
-        margin-right: 20px;
+        margin-right: 20px; */
     }
     #name {
         margin-left: 20px;
@@ -227,11 +227,11 @@
 
 @media screen and (max-width: 640px) {
     #portfolio {
-        width: 60%;
+        width: 90%;
         height: 100%;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px;
         margin-left: 20px;
-        margin-right: 20px;
+        margin-right: 20px; */
     }
     .top_bar, #name, .nav {
         width: 100%;
@@ -250,11 +250,15 @@
         position: relative;
     }
     .photo .app1 .app2 .app3 .app4 .app5 .t1 .t2 .t3 .t4 .t5 .text1 .text2 .text3 .text4 .text5 {
-        width: 90%;
+        width: 100%;
     }
     .app1 .app2 .app3 .app4 .app5 .t1 .t2 .t3 .t4 .t5 .text1 .text2 .text3 .text4 .text5 {
         margin-left: 10px;
         margin-right: 0px;
+    }
+
+    .app1 .app2 .app3 .app4 .app5{
+        margin: 0px, 0px, 0px, 0px;
     }
     
 }
