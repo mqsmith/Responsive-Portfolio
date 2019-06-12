@@ -197,15 +197,12 @@
 @media screen and (max-width: 980px) {
     #portfolio {
         width: 80%;
-        /* margin-bottom: 30px;
-        margin-left: 40px; */
+        
     }
     .t2, .t4, .t5 {
         margin-right: 0;
     }
-    #name {
-        margin-left: 40px;
-    }
+    
     .photo {
         width: 90%
     }
@@ -215,13 +212,9 @@
 @media screen and (max-width: 768px) {
     #portfolio {
         width: 90%;
-        /* margin-bottom: 30px;
-        margin-left: 20px;
-        margin-right: 20px; */
+       
     }
-    #name {
-        margin-left: 20px;
-    }
+   
     .photo {
         width: 90%;
     }
@@ -231,26 +224,9 @@
     #portfolio {
         width: 90%;
         height: 100%;
-        /* margin-bottom: 30px;
-        margin-left: 20px;
-        margin-right: 20px; */
+        
     }
-    .top_bar, #name, .nav {
-        width: 100%;
-    }
-    header {
-        height: 75px;
-    }
-    #name {
-        margin: 0;
-        text-align: center;
-    }
-    .nav {
-        padding: 20px;
-        margin-top: 55px;
-        text-align: center;
-        position: relative;
-    }
+    
     .app1, .app2, .app3, .app4, .app5 {
         width: 100%;
         margin: 0px 0px;

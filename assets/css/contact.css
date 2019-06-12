@@ -70,9 +70,7 @@ input[type=submit]:hover {
     margin-bottom: 30px;
     margin-left: 40px;
   }
-  #name {
-    margin-left: 40px;
-  }
+  
   input[type=submit] {
     width: 25%;
     margin-top: 0;
@@ -87,9 +85,7 @@ input[type=submit]:hover {
     margin-left: 20px;
     margin-right: 20px;
   }
-  #name {
-    margin-left: 20px;
-  }
+  
   input[type=submit] {
     width: 25%;
     margin-top: 0;
@@ -103,22 +99,7 @@ input[type=submit]:hover {
     margin-left: 20px;
     margin-right: 20px;
   }
-  .top_bar, #name, .nav {
-    width: 100%;
-  }
-  header {
-    height: 75px;
-  }
-  #name {
-    margin: 0;
-    text-align: center;
-  }
-  .nav {
-    padding: 20px;
-    margin-top: 55px;
-    text-align: center;
-    position: relative;
-  }
+  
   input[type=submit] {
     width: 25%;
     margin-top: 0;
